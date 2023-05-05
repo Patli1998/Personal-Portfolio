@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik Purohit</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/97/three.min.js"></script>
+    <script src="https://cdn.rawgit.com/josephg/noisejs/master/perlin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script  src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script  src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script  src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script defer src="mouseFollow.js"></script>
+    <script defer src="3dBackground.js"></script>
+    <script defer src="app.js"></script>
+    <script defer src="typingText.js"></script>
+    <script type="text/javascript" src="CO2Data-Transformed.js"></script>
+    <script defer src="am5-chart-race.js"></script>
+
+</head>
+<body>
+
+  <!-- <script>
+    // load the loading page
+    window.location.href = "loading.html";
+</script> -->  
+    <canvas class="scene" id="bubble" ></canvas>
+    <div class="container">
+      <section>
+          <h1 class="larger-font">
+          </h1>
+          <!-- <p class="pictures hidden subtitle">Welcome To My Portfolio</p> -->
+      </section>
+      
+      <section class ="hidden">
+          <div id = "work-experience">
+              <h1 class = "subheading">I'm a data analyst with a passion for visualizing data through front-end development and graphic design.</h1>
+              <h3>Work Experience</h3>
+              <div class="work-experience">
+                <p class="card"><strong>Costco</strong><br>Meat Assistant<br>April 2023 – Current</p>
+                <p class="card"><strong>X Movement</strong><br>Lead Generation Specialist<br>Sept 2021 – Jan 2022</p>
+                <p class="card"><strong>Visions Electronics</strong><br>Seasonal Sales Associate<br>Nov 2020 – Jan 2021</p>
+                <h3>Education</h3>
+                <p class="card"><strong>University of Toronto SCS</strong><br>Data Analytics<br>Dec 2022 – Jun 2023</p>
+                <p class="card"><strong>Humber College</strong><br>Marketing<br>Sep 2019 – Apr 2021</p>
+            </div>
+              
+              
+          </div>
+      </section>
+      
+      <section class ="hidden">
+      <h2>Projects I've Worked On</h2>
+      <div class="grid-container">
+        <a href="https://github.com/Patli1998/Bootcamp-Project1">
+          <div class = cards-container>
+          <div class = "cards">
+            <div class = "image">
+              <img href = "#" src ="./patli-icon.png">
+            </div>
+            <div class = "content">
+              <h3>Project 1</h3>
+              <p></p>
+            </div>
+          </div>
+          </div>
+          </a>
+        <a href="https://github.com/Patli1998/ETL-Mini-Project">
+          <div class = cards-container>
+          <div class = "cards">
+            <div class = "image">
+              <img href = "#" src ="./patli-icon.png">
+            </div>
+            <div class = "content">
+              <h3>Project 2</h3>
+              <p></p>
+            </div>
+          </div>
+          </div>
+          </a>
+        <a href="https://johnjamescad.github.io/Project-3/">
+        <div class = cards-container>
+        <div class = "cards">
+          <div class = "image">
+            <img href = "#" src ="./patli-icon.png">
+          </div>
+          <div class = "content">
+            <h3>Project 3</h3>
+            <p></p>
+          </div>
+        </div>
+        </div>
+        </a>
+      </div>
+      </section>
+      <section class="hidden">
+        <h3>Here is one of my favourite visualizations! Representing CO2 Emissions by Country from 1991-2021</h3>
+        <div id="co2-bar-race" class="chartdiv hidden"></div>
+      </section>
+
+    <section class="hidden">
+          <h2>Here are some of the tools I use!</h2>
+          <div class="logos hidden">
+            <div class="pictures">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png" alt="HTML logo">
+            </div>
+            <div class="pictures">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/240px-Python-logo-notext.svg.png" alt="Python logo">
+            </div>
+            <div class="pictures">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/240px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript logo">
+            </div>
+            <div class="pictures">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/240px-Adobe_Photoshop_CC_icon.svg.png" alt="Photoshop logo">
+            </div>
+          </div>
+      </section>
+    </div>
+
+
+
+  <div class="cursor"></div>
+
+</body>
+
+<footer>
+  <p class="hidden">Created by Pratik Purohit</p>
+  <a href="https://github.com/Patli1998">
+    <img class="hidden" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="Github logo" style="background-color: transparent; width: 50px; height: 15px;">
+  </a>
+  <a href="https://www.instagram.com/patli.jpg/">
+    <img class="hidden"src="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png" alt="Instagram logo" style="background-color: transparent; width: 25px; height: 25px;">
+  </a>
+</footer>
+</html>
